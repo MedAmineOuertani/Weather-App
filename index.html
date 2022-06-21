@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        .container{
+            width:60%;
+            margin: auto auto;
+            display:flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            padding:20px;
+            border-radius:25%;
+            background-color: #2ea3dd;
+
+        }
+        input{
+            height: 50px;
+            text-align: center;
+            font-size:1rem;
+            border-radius: 50%;
+
+        }
+        button{
+            margin :0 auto;
+            height: 60px;
+            width: 200px;
+            display: block;
+            border: none;
+            background-color: #1f212d;
+            color: #fff;
+            border-radius:50% ;
+        }
+
+    </style>
+        
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form action="/" method="post">
+            <input type="text" name="city" placeholder="Enter the City"><br><br>
+            <button type="submit">Go !</button>
+        </form>
+    </div>
+</body>
+</html>
